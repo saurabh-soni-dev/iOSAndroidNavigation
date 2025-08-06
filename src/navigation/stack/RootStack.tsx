@@ -25,6 +25,7 @@ const RootStack: FC = () => {
           //   ios: TransitionPresets.ModalSlideFromBottomIOS,
           //   android: TransitionPresets.FadeFromBottomAndroid,
         }),
+        statusBarStyle: 'dark',
       }}
     >
       <Stack.Screen name="Home" component={Home} />
